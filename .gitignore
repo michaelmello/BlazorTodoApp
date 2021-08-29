@@ -448,10 +448,9 @@ $RECYCLE.BIN/
 ## Visual Studio Code
 ##
 .vscode/
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
+
 
 #SQLite
 *.db
+*.db-shm
+*.db-wal
