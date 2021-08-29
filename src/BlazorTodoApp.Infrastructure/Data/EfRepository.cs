@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace BlazorTodoApp.Infrastructure.Data;
 
-public class EfRepository<T> : IAsyncRepository<T> where T : BaseEntity
+public class EfRepository<T> : IAsyncRepository<T> where T : BaseEntity, IAggregateRoot
 {
     protected readonly TodoContext _db;
 
